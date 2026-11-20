@@ -1,164 +1,401 @@
-<!--
-  Profile README: https://github.com/Durgam-vamshi
-  Design: AI engineering / terminal-inspired, with compact sections and expandable project details.
---><div align="center"><img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:10172A,45:312E81,100:0F766E&height=210&section=header&text=Vamshi%20Durgam&fontSize=52&fontColor=F8FAFC&fontAlignY=38&desc=AI%20ENGINEER%20%20%E2%80%A2%20%20GENAI%20%20%E2%80%A2%20%20BACKEND%20SYSTEMS&descAlignY=60&descSize=15" alt="Vamshi Durgam — AI Engineer" /><a href="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1100&color=67E8F9&center=true&vCenter=true&width=760&lines=I+turn+LLM+ideas+into+working+systems.;RAG+%2B+Hybrid+Retrieval+%2B+Reranking.;Agents+%2B+MCP+%2B+Tool+Calling.;Real-time+Voice+AI+%2B+Backend+Engineering.">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1100&color=67E8F9&center=true&vCenter=true&width=760&lines=I+turn+LLM+ideas+into+working+systems.;RAG+%2B+Hybrid+Retrieval+%2B+Reranking.;Agents+%2B+MCP+%2B+Tool+Calling.;Real-time+Voice+AI+%2B+Backend+Engineering." alt="Animated AI engineering tagline" />
-</a>
-<a href="https://www.linkedin.com/in/vamshidurgam/"><img src="https://img.shields.io/badge/LINKEDIN-Let's%20connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://github.com/Durgam-vamshi"><img src="https://img.shields.io/badge/GITHUB-Follow%20my%20work-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="mailto:iamvamshidurgam@gmail.com"><img src="https://img.shields.io/badge/EMAIL-Say%20hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://x.com/DevXVamshi"><img src="https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-
-
-
-<img src="https://komarev.com/ghpvc/?username=Durgam-vamshi&style=for-the-badge&color=0F766E&label=PROFILE+VIEWS" alt="Profile views" /></div>01 / About me
-Hey! I'm Vamshi Durgam, an AI Engineer based in Hyderabad, India. I build LLM-powered applications and the backend systems that make them useful outside a notebook.
-
-My day-to-day interests sit at the intersection of RAG, retrieval quality, AI agents, tool calling, MCP, and real-time voice AI. I care about more than getting a model to respond: I like engineering the ingestion, orchestration, evaluation, security, and reliability around it.
-vamshi = {
-    "role": "AI Engineer",
-    "focus": ["GenAI", "RAG", "AI Agents", "Voice AI"],
-    "building_with": ["Python", "FastAPI", "LangChain", "LangGraph"],
-    "location": "Hyderabad, India",
-    "mindset": "Build → Measure → Improve"
-}
 <div align="center">
-  <img src="https://img.shields.io/badge/EXPERIENCE-2%2B%20YEARS-312E81?style=flat-square" alt="2 plus years experience" />
-  <img src="https://img.shields.io/badge/CORE-Python%20%7C%20FastAPI-0F766E?style=flat-square" alt="Python and FastAPI" />
-  <img src="https://img.shields.io/badge/FOCUS-Production%20GenAI-7C3AED?style=flat-square" alt="Production GenAI" />
-</div>02 / What I work on
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🧠 LLM Apps & Agent Workflows</h3>
-      <sub>LANGCHAIN · LANGGRAPH · MCP</sub>
-      <p>Structured outputs, tool/function calling, orchestration, and workflows that connect LLM decisions to reliable backend actions.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🔎 RAG & Retrieval Engineering</h3>
-      <sub>EMBEDDINGS · BM25 · RERANKING</sub>
-      <p>Document ingestion, semantic and sparse retrieval, hybrid search, query rewriting, reranking, and tenant-aware knowledge systems.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎙️ Real-Time Voice AI</h3>
-      <sub>PIPECAT · SARVAM · EXOTEL</sub>
-      <p>Streaming speech pipelines, WebSocket audio, VAD, turn detection, telephony integrations, and latency instrumentation.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚙️ AI Backend Engineering</h3>
-      <sub>FASTAPI · ASYNCIO · POSTGRESQL</sub>
-      <p>Async APIs, persistence, authentication, external integrations, observability, testing, and production reliability.</p>
-    </td>
-  </tr>
-</table>03 / Featured builds
-<details open>
-  <summary><strong>🧑‍💻 LLM-Powered Repository-Level Software Repair Agent</strong> · <code>AI SWE Agent</code></summary>
-  <br />
-  <p><strong>Python · FastAPI · Groq · Llama 3.3 70B · AST · Docker · Pytest · Git</strong></p>
-  An LLM-driven repair workflow that explores a repository, locates bugs, proposes patches, runs tests, and iterates on failures.
-  <ul>
-    <li>Built AST-based code analysis and traceback-driven localization to identify relevant repository symbols and create bounded context.</li>
-    <li>Hardened patch execution with Unified Diff validation, path-traversal protection, AST validation, Git rollback, and isolated workspaces.</li>
-    <li>Added Docker-isolated Pytest verification, structured failure classification, and retry-based recovery.</li>
-    <li><strong>Evaluation:</strong> 20 internal Python bugs · <strong>85%</strong> first-attempt resolution · <strong>95%</strong> within three attempts.</li>
-  </ul>
-</details><details open>
-  <summary><strong>🔍 Multi-Tenant RAG Backend with Hybrid Retrieval & Reranking</strong></summary>
-  <br />
-  <p><strong>Python · FastAPI · PostgreSQL · Pinecone · Groq · Llama · BM25 · Cross-Encoder</strong></p>
-  A multi-tenant knowledge retrieval backend for customer-support use cases, designed for relevant context retrieval across conversational queries.
-  <ul>
-    <li>Combined dense semantic retrieval with BM25 sparse retrieval, then applied Cross-Encoder reranking.</li>
-    <li>Implemented conversational query rewriting with Llama and PostgreSQL-backed history for ambiguous follow-up questions.</li>
-    <li>Built asynchronous PDF/DOCX/TXT ingestion, chunking, embeddings, BM25 indexing, and batched vector upserts.</li>
-    <li>Added JWT authentication, tenant ownership validation, and metadata filtering.</li>
-  </ul>
-</details><details open>
-  <summary><strong>🎧 Real-Time Telugu AI Voice Agent for Lead Qualification</strong></summary>
-  <br />
-  <p><strong>Python · FastAPI · Pipecat · Exotel · FastMCP · Sarvam AI · Silero VAD · Llama · Groq</strong></p>
-  A Telugu voice-agent pipeline for real-estate lead qualification over telephony, with business-tool integrations and an LLM fallback path.
-  <ul>
-    <li>Integrated Exotel WebSockets with Sarvam streaming STT/TTS and Llama-based conversational fallback.</li>
-    <li>Built a custom MCP server with FastMCP to connect the agent to Gmail and internal call directories.</li>
-    <li>Implemented bidirectional audio streaming, Silero VAD, turn detection, buffering, and μ-law media serialization.</li>
-    <li>Designed a deterministic five-stage qualification state machine and added latency, token/context, barge-in, and transcript instrumentation.</li>
-  </ul>
-</details>04 / My toolbox
-<p align="center"><sub>THE STACK I USE TO BUILD, SHIP, AND DEBUG AI SYSTEMS</sub></p>🐍 Languages
-<p>
-  <img src="https://skillicons.dev/icons?i=python,js,sql" alt="Python, JavaScript and SQL" />
-</p>🧠 GenAI, LLMs & orchestration
-<p>
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
-  <img src="https://img.shields.io/badge/LangGraph-202020?style=for-the-badge" alt="LangGraph" />
-  <img src="https://img.shields.io/badge/RAG-5B4BDB?style=for-the-badge" alt="RAG" />
-  <img src="https://img.shields.io/badge/AI_Agents-6D28D9?style=for-the-badge" alt="AI Agents" />
-  <img src="https://img.shields.io/badge/MCP-0F766E?style=for-the-badge" alt="Model Context Protocol" />
-  <img src="https://img.shields.io/badge/FastMCP-115E59?style=for-the-badge" alt="FastMCP" />
-  <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge" alt="Groq" />
-  <img src="https://img.shields.io/badge/OpenRouter-202020?style=for-the-badge" alt="OpenRouter" />
-  <img src="https://img.shields.io/badge/Llama-0467DF?style=for-the-badge" alt="Llama" />
-</p>🔎 Retrieval & databases
-<p>
-  <img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white" alt="Pinecone" />
-  <img src="https://img.shields.io/badge/BM25-475569?style=for-the-badge" alt="BM25" />
-  <img src="https://img.shields.io/badge/Hybrid_Search-0F766E?style=for-the-badge" alt="Hybrid search" />
-  <img src="https://img.shields.io/badge/Reranking-7C3AED?style=for-the-badge" alt="Reranking" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-</p>⚙️ Backend & web
-<p>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge" alt="Pydantic" />
-  <img src="https://img.shields.io/badge/AsyncIO-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python AsyncIO" />
-  <img src="https://img.shields.io/badge/REST_APIs-334155?style=for-the-badge" alt="REST APIs" />
-  <img src="https://img.shields.io/badge/WebSockets-2563EB?style=for-the-badge" alt="WebSockets" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-</p>🎙️ Voice AI
-<p>
-  <img src="https://img.shields.io/badge/Pipecat-5B21B6?style=for-the-badge" alt="Pipecat" />
-  <img src="https://img.shields.io/badge/Sarvam_AI-0F766E?style=for-the-badge" alt="Sarvam AI" />
-  <img src="https://img.shields.io/badge/Exotel-2563EB?style=for-the-badge" alt="Exotel" />
-  <img src="https://img.shields.io/badge/Silero_VAD-475569?style=for-the-badge" alt="Silero VAD" />
-</p>🧪 Shipping, testing & observability
-<p>
-  <img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge" alt="LangSmith" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=222222" alt="Firebase" />
-  <img src="https://img.shields.io/badge/Appwrite-FD366E?style=for-the-badge&logo=appwrite&logoColor=white" alt="Appwrite" />
-</p>05 / GitHub corner
-<div align="center"><a href="https://github.com/Durgam-vamshi">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Durgam-vamshi&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="Vamshi's GitHub stats" />
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&text=VAMSHI%20DURGAM&fontSize=54&fontColor=FFFFFF&fontAlignY=38&desc=AI%20ENGINEER%20%E2%80%A2%20GENAI%20%E2%80%A2%20AI%20BACKEND%20SYSTEMS&descAlignY=61&descSize=16&color=0:080B1A,35:1E3A8A,70:6D28D9,100:0891B2" />
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=2800&pause=850&color=67E8F9&center=true&vCenter=true&width=820&height=55&lines=I+build+AI+systems%2C+not+just+LLM+demos.;RAG+%7C+Hybrid+Retrieval+%7C+Reranking;Agents+%7C+MCP+%7C+Tool+Calling;Real-time+Voice+AI+%7C+Reliable+Backends" />
+
+<br/>
+
+<a href="https://www.linkedin.com/in/vamshidurgam/">
+<img src="https://img.shields.io/badge/LinkedIn-LET'S_CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 <a href="https://github.com/Durgam-vamshi">
-  <img height="165" src="https://streak-stats.demolab.com?user=Durgam-vamshi&theme=tokyonight&hide_border=true" alt="Vamshi's GitHub streak" />
+<img src="https://img.shields.io/badge/GitHub-EXPLORE_MY_CODE-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Durgam-vamshi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Most used languages" /></div>🐍 Contribution snake
-<div align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-  <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" width="100%" />
-</picture></div>06 / Let's connect
-Got an interesting problem around RAG, agentic workflows, voice AI, or AI backend engineering? Let's talk.
+<a href="mailto:iamvamshidurgam@gmail.com">
+<img src="https://img.shields.io/badge/Email-SAY_HELLO-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+<a href="https://x.com/DevXVamshi">
+<img src="https://img.shields.io/badge/X-FOLLOW-000000?style=for-the-badge&logo=x&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Durgam-vamshi&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS"/>
+<img src="https://img.shields.io/badge/EXPERIENCE-2_YEARS-0891B2?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/BASED_IN-HYDERABAD,_INDIA-334155?style=for-the-badge&logo=googlemaps&logoColor=white"/>
+
+</div>
+
+---
+
+## ⚡ THE QUICK INTRO
+
+I'm **Vamshi Durgam**, an **AI Engineer** building production-oriented LLM applications, retrieval systems, agent workflows, and real-time voice experiences.
+
+I enjoy the engineering behind the model call:
+
+- 🧠 LLM orchestration and AI agents
+- 🔍 RAG pipelines and retrieval quality
+- ⚡ Hybrid search, embeddings and reranking
+- 🔗 MCP and tool/function calling
+- 🎙️ Real-time conversational Voice AI
+- 🏗️ Scalable asynchronous AI backend systems
+
+My focus is turning AI capabilities into reliable, measurable systems that people can actually use.
+
 <div align="center">
-  <a href="https://www.linkedin.com/in/vamshidurgam/"><img src="https://img.shields.io/badge/LinkedIn-vamshidurgam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:iamvamshidurgam@gmail.com"><img src="https://img.shields.io/badge/Email-iamvamshidurgam%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/Durgam-vamshi"><img src="https://img.shields.io/badge/GitHub-Durgam--vamshi-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-</div><div align="center">
-  <br />
-  <b>Less hype. More engineering. More shipping. ⚡</b>
-  <br /><br />
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,50:312E81,100:10172A&height=115&section=footer" alt="Decorative footer" />
+
+### 🧠 LLM APPLICATIONS
+### 🔍 RETRIEVAL ENGINEERING
+### 🤖 AGENTIC WORKFLOWS
+### 🎙️ REAL-TIME VOICE AI
+### ⚙️ BACKEND ARCHITECTURE
+
+</div>
+
+---
+
+# 🧩 THE SYSTEMS I BUILD
+
+## 🔍 01 — RAG / KNOWLEDGE SYSTEMS
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/01-DOCUMENT_INGESTION-2563EB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/02-HYBRID_RETRIEVAL-7C3AED?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/03-RERANKING-0891B2?style=for-the-badge"/>
+
+</div>
+
+```mermaid
+flowchart TD
+    A["📄 PDF / DOCX / TXT"] --> B["⚙️ FastAPI Ingestion"]
+    B --> C["✂️ Chunking"]
+    C --> D["🔢 Embeddings"]
+    D --> E[("🗄️ Pinecone")]
+
+    Q["💬 User Query"] --> API["⚡ FastAPI"]
+    API --> QR["🧠 Query Rewriting"]
+    QR --> DS["🔎 Dense Retrieval"]
+    QR --> BM["📚 BM25 Retrieval"]
+
+    E --> DS
+    DS --> F["⚖️ Hybrid Fusion"]
+    BM --> F
+    F --> R["🎯 Cross-Encoder Reranking"]
+    R --> CTX["🧩 Relevant Context"]
+    CTX --> LLM["🤖 Groq / Llama"]
+    LLM --> OUT["✅ Grounded Answer"]
+
+    classDef input fill:#172554,stroke:#60A5FA,color:#fff
+    classDef processing fill:#164E63,stroke:#22D3EE,color:#fff
+    classDef retrieval fill:#312E81,stroke:#A5B4FC,color:#fff
+    classDef model fill:#581C87,stroke:#D8B4FE,color:#fff
+    classDef output fill:#14532D,stroke:#4ADE80,color:#fff
+
+    class A,Q input
+    class B,C,D,API,QR processing
+    class E,DS,BM,F,R,CTX retrieval
+    class LLM model
+    class OUT output
+```
+
+## 🛠️ 02 — AI SOFTWARE REPAIR AGENT
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/LLM-REASONING-7C3AED?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AST-CODE_ANALYSIS-2563EB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/DOCKER-ISOLATED_TESTING-0891B2?style=for-the-badge"/>
+
+</div>
+
+```mermaid
+flowchart TD
+    A["📦 Python Repository"] --> B["🧭 AST Analysis"]
+    B --> C["🔍 Traceback Localization"]
+    C --> D["✂️ Bounded Code Context"]
+    D --> E["🧠 Llama 3.3 70B"]
+    E --> F["📝 Patch Generation"]
+    F --> G["🛡️ Unified Diff Validation"]
+    G --> H["🐳 Docker Isolated Pytest"]
+    H --> I{"Tests Passed?"}
+    I -->|Yes| J["✅ Verified Repair"]
+    I -->|No| K["🧪 Failure Classification"]
+    K --> E
+
+    classDef source fill:#172554,stroke:#60A5FA,color:#fff
+    classDef analysis fill:#312E81,stroke:#A5B4FC,color:#fff
+    classDef safety fill:#7C2D12,stroke:#FB923C,color:#fff
+    classDef testing fill:#164E63,stroke:#22D3EE,color:#fff
+    classDef success fill:#14532D,stroke:#4ADE80,color:#fff
+
+    class A source
+    class B,C,D,E,F analysis
+    class G,K safety
+    class H,I testing
+    class J success
+```
+
+## 🎙️ 03 — REAL-TIME TELUGU VOICE AI
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/SPEECH-STREAMING-0891B2?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/MCP-TOOL_INTEGRATION-7C3AED?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/TELEPHONY-EXOTEL-2563EB?style=for-the-badge"/>
+
+</div>
+
+```mermaid
+flowchart TD
+    A["☎️ Incoming Call"] --> B["🔌 Exotel WebSocket"]
+    B --> C["🎛️ FastAPI + Pipecat"]
+    C --> D["👂 Silero VAD"]
+    D --> E["🧭 Turn Detection"]
+    E --> F["🧠 Lead Qualification State Machine"]
+
+    F -->|Known Intent| G["⚡ Deterministic Action"]
+    F -->|Requires LLM| H["🤖 Sarvam STT / TTS + Llama"]
+
+    G --> I["🔗 FastMCP Server"]
+    H --> I
+
+    I --> J["📨 Gmail Integration"]
+    I --> K["📞 Internal Call Directory"]
+
+    J --> L["🔊 Voice Response"]
+    K --> L
+
+    classDef input fill:#172554,stroke:#60A5FA,color:#fff
+    classDef processing fill:#164E63,stroke:#22D3EE,color:#fff
+    classDef reasoning fill:#312E81,stroke:#A5B4FC,color:#fff
+    classDef tools fill:#581C87,stroke:#D8B4FE,color:#fff
+    classDef output fill:#14532D,stroke:#4ADE80,color:#fff
+
+    class A input
+    class B,C,D,E processing
+    class F,G,H reasoning
+    class I,J,K tools
+    class L output
+```
+
+---
+
+# 🚀 FEATURED BUILDS
+
+<details open>
+<summary><strong>🧑‍💻 AI SWE AGENT — REPOSITORY-LEVEL SOFTWARE REPAIR</strong></summary>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/FASTAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/GROQ-F55036?style=flat-square"/>
+<img src="https://img.shields.io/badge/DOCKER-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/PYTEST-0A9EDC?style=flat-square"/>
+</div>
+
+An LLM-driven software repair workflow that analyzes repositories, localizes bugs, generates patches, executes tests, analyzes failures, and iteratively verifies repairs.
+
+**Core engineering:**
+
+- 🧭 AST-based code analysis and traceback-driven localization.
+- ✂️ Bounded code context construction for relevant repository symbols.
+- 🛡️ Unified Diff validation, path-traversal protection, AST validation, Git rollback and isolated task workspaces.
+- 🐳 Docker-isolated Pytest execution.
+- 🔄 Structured failure classification and retry-based recovery.
+
+**Evaluation results**
+
+| Metric | Result |
+|---|---:|
+| Internal Python bugs evaluated | 20 |
+| First-attempt resolution | 85% |
+| Resolution within three attempts | 95% |
+
+**Stack:** Python · FastAPI · Groq · Llama 3.3 70B · AST · Docker · Pytest · Git
+
+</details>
+
+<details open>
+<summary><strong>🔎 MULTI-TENANT RAG BACKEND — HYBRID RETRIEVAL & RERANKING</strong></summary>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/FASTAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/POSTGRESQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/PINECONE-000000?style=flat-square"/>
+<img src="https://img.shields.io/badge/BM25-SPARSE_SEARCH-475569?style=flat-square"/>
+<img src="https://img.shields.io/badge/CROSS_ENCODER-RERANKING-7C3AED?style=flat-square"/>
+
+</div>
+
+A multi-tenant RAG backend for customer-support knowledge bases using Python, FastAPI, PostgreSQL, Pinecone, and Groq-hosted Llama models.
+
+**Core engineering:**
+
+- 🔎 Two-stage hybrid retrieval combining dense semantic search with BM25 sparse retrieval.
+- ⚖️ Cross-Encoder reranking to select high-relevance context.
+- 🧠 Conversational query rewriting using Llama and PostgreSQL-backed conversation history.
+- 📄 Asynchronous PDF/DOCX/TXT ingestion, chunking and embedding generation.
+- 📦 BM25 indexing and batched vector upserts.
+- 🔐 JWT authentication, tenant ownership validation and metadata filtering.
+
+**Stack:** Python · FastAPI · PostgreSQL · Pinecone · Groq · Llama · BM25 · Cross-Encoder
+
+</details>
+
+<details open>
+<summary><strong>🎧 REAL-TIME TELUGU AI VOICE AGENT — LEAD QUALIFICATION</strong></summary>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/PIPECAT-5B21B6?style=flat-square"/>
+<img src="https://img.shields.io/badge/SARVAM_AI-0F766E?style=flat-square"/>
+<img src="https://img.shields.io/badge/EXOTEL-2563EB?style=flat-square"/>
+<img src="https://img.shields.io/badge/FASTMCP-115E59?style=flat-square"/>
+<img src="https://img.shields.io/badge/SILERO_VAD-475569?style=flat-square"/>
+
+</div>
+
+A real-time Telugu voice-agent pipeline for real-estate lead qualification over telephony, integrating speech processing, deterministic workflows and AI-powered conversational fallback.
+
+**Core engineering:**
+
+- ☎️ Exotel WebSockets with Sarvam streaming STT/TTS.
+- 🤖 Llama-based conversational fallback.
+- 🔗 Custom MCP server using FastMCP to integrate Gmail and internal call directories.
+- 🎚️ Bidirectional audio streaming, Silero VAD, turn detection and audio buffering.
+- 📡 μ-law media serialization for telephony.
+- 📈 Turn-latency instrumentation, token/context tracking, barge-in analytics and transcript logging.
+- 💾 SQLite/JSON persistence for debugging conversational behavior.
+
+**Stack:** Python · FastAPI · Pipecat · Exotel · FastMCP · Sarvam AI · Silero VAD · Llama · Groq
+
+</details>
+
+---
+
+# 🧰 THE ENGINEERING TOOLKIT
+
+<div align="center">
+
+## 💻 LANGUAGES & BACKEND
+
+<img src="https://skillicons.dev/icons?i=python,js,nextjs,nodejs,express,fastapi&perline=6" />
+
+<br/>
+
+## 🧠 GENAI & ORCHESTRATION
+
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangGraph-202020?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/MCP-0F766E?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/FastMCP-115E59?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenRouter-202020?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Llama-0467DF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge"/>
+
+<br/>
+
+## 🔍 RETRIEVAL & SEARCH
+
+<img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white"/>
+<img src="https://img.shields.io/badge/BM25-SPARSE_SEARCH-475569?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Semantic_Search-2563EB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Hybrid_Search-7C3AED?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Cross--Encoder-RERANKING-0891B2?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Embeddings-6D28D9?style=for-the-badge"/>
+
+<br/>
+
+## 🗄️ DATABASES & INFRASTRUCTURE
+
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,sqlite,docker,git,github&perline=8"/>
+
+<br/>
+
+<img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white"/>
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=222222"/>
+<img src="https://img.shields.io/badge/Appwrite-FD366E?style=for-the-badge&logo=appwrite&logoColor=white"/>
+
+<br/>
+
+## 🎙️ VOICE AI
+
+<img src="https://img.shields.io/badge/Pipecat-5B21B6?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Sarvam_AI-0F766E?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Exotel-2563EB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Silero_VAD-475569?style=for-the-badge"/>
+
+</div>
+
+---
+
+# 📊 GITHUB COMMAND CENTER
+
+<div align="center">
+
+<a href="https://github.com/Durgam-vamshi">
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Durgam-vamshi&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight&include_all_commits=true"/>
+</a>
+
+<a href="https://github.com/Durgam-vamshi">
+<img height="180" src="https://streak-stats.demolab.com?user=Durgam-vamshi&hide_border=true&theme=tokyonight"/>
+</a>
+
+<br/><br/>
+
+<img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Durgam-vamshi&layout=compact&hide_border=true&theme=tokyonight&langs_count=8"/>
+
+</div>
+
+---
+
+# 🐍 THE CONTRIBUTION SNAKE
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Durgam-vamshi/Durgam-vamshi/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Durgam-vamshi/Durgam-vamshi/output/github-contribution-grid-snake.svg"/>
+  <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/Durgam-vamshi/Durgam-vamshi/output/github-contribution-grid-snake.svg" width="100%"/>
+</picture>
+
+</div>
+
+---
+
+# 🤝 LET'S CONNECT
+
+<div align="center">
+
+### Always interested in conversations around:
+
+**GenAI Engineering • RAG Quality • Agentic Systems • Voice AI • Backend Architecture**
+
+<br/>
+
+<a href="https://www.linkedin.com/in/vamshidurgam/">
+<img src="https://img.shields.io/badge/LinkedIn-Connect_with_me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:iamvamshidurgam@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-Say_Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://github.com/Durgam-vamshi">
+<img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+### ⚡ DESIGN THE SYSTEM. BUILD THE WORKFLOW. MEASURE THE RESULT. SHIP IT.
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:0891B2,50:6D28D9,100:080B1A"/>
+
 </div>
